@@ -1,0 +1,160 @@
+\documentclass[12pt,a4paper]{article}
+
+% Packages
+%\usepackage[english,danish]{babel}
+%\usepackage[applemac]{inputenc}
+\usepackage{amsmath,amscd}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{enumerate}
+\usepackage{graphicx}                    
+\usepackage{framed}  
+
+\theoremstyle{plain}
+\newtheorem{thm}{SŸtning}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{cor}[thm]{Korollar}
+\newtheorem{conj}[thm]{Formodning}
+\theoremstyle{definition}
+\newtheorem{exercise}{Opgave}
+\newtheorem{definition}[thm]{Definition}
+\newtheorem{prob}[thm]{Problem}
+\newtheorem{remark}[thm]{BemŸrkning}
+\newtheorem{example}[thm]{Eksempel}
+
+
+% Blackboard bold
+\newcommand{\NN}{\mathbb{N}}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\non}{\sim \hspace{-1mm}}
+
+
+\title{Assigment 6 DMA}
+\author{Mikkel Luc Carlsen}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{itemize}
+    \item[Part 1] 
+    The statement "f(x) is O(g(x))" can be expressed using logical operators as the following:
+    \begin{equation}
+        \exists c>0 \; \exists x_0\in \RR^+ \; \forall x\ge x_0 \; f(x) \le cg(x)
+    \end{equation}
+    \begin{enumerate}
+    \item[(a)]
+    The negation of this expression can simply be expressed as:
+    \begin{equation}
+        \sim [\exists c>0 \; \exists x_0\in \RR^+ \; \forall x\ge x_0 \; f(x) \le cg(x)]
+    \end{equation}  
+    I will now use theorem 3 from KBR chapter 2.2 in order to simplyfy it. Now the equation will look like this:
+    \begin{equation}
+        \forall c>0 \; \forall x_0\in \RR^+ \; \exists x\ge x_0 \; \sim[f(x) \le cg(x)]
+    \end{equation}
+    now all thats left is to remove the $\sim$ notation, this is done as follows:
+    \begin{equation}
+        \forall c>0 \; \forall x_0\in \RR^+ \; \exists x\ge x_0 \; f(x) > cg(x)
+    \end{equation}
+    and now we have the negation of the former expression.
+
+    \item[(b)]
+    To express this very shortly and directly in danish one could say: "For enhver konstant $c>0$ og for ethvert $x_0$ i mængden $\RR^+$, 
+    findes der et $x\ge x_0$, sådan at $f(x) > cg(x)$.
+\end{enumerate}\
+
+\item[Part 2]
+    The statement "If r is an irrational number, then $r^{1/5}$ is an irrational number" can be proven by proving the contrapositive statement. 
+
+    \textbf{Impliation $p\Rightarrow q$}: If r is an irrational number, then $r^{1/5}$ is an irrational number.
+    \newline \textbf{Contrapositive $\sim q \Rightarrow \sim p$}: If $r^{1/5}$ is a rational number, then r is a rational number.
+
+    Now if we assume that $r^{1/5}$ is a rational number, then it means that we can write it as $a/b$ so $r^{1/5}=a/b$ for some intergers \textit{a} as a 
+    numerator and \textit{b} as a non-zero denominator.
+    So from this we can also conclude that:
+    \begin{equation}
+        (r^{1/5})^5=(a/b)^5 \leftrightarrow r=a^5/b^5
+    \end{equation}
+    Now from this we get an expression for r, which is $a^5/b^5$ where both \textit{a} and \textit{b} are intergers meaning that $a^5$ and $b^5$ is also intergers and therefore we might aswell express it as $r=p/q$, where $p=a^5$ and $q=b^5$ meaning that r is rational number and we have therefor proved the contrapositive of our original statement.
+    
+\item[Part 3]
+    By the definition of Big-O then $4^n$ is not $O(2^n)$.\\
+    This can be proven by doing a proof of contradiction.
+
+    The definition of big-O is as follows: "We say that $f(x)$ is $O(g(x))$ if there exists a constant $c > 0$ and $x_0$ such that $f(x)\leq cg(x)$ for all $x\geq x_0$.
+
+    Now because this is a proof of contradiction, then we want to try to proof the negation of our original statement and meet a contradiction for this, which we can use to conclude that our original statement is true since the negation then is false.
+    Therefore we wish to prove the negation of \textit{"$4^n$ is not $O(2^n)$"} which is \textit{"$4^n$ is $O(2^n)$"} meaning that we can find a constant $c > 0$ and $n_0$ such that $4^n\leq c*2^n$ for all $n\geq n_0$.
+    So we have:
+    \begin{equation}
+        4^n\leq c*2^n
+    \end{equation}
+    By dividing each side of the equation with $2^n$ then we get
+    \begin{equation}
+        2^n\leq c
+    \end{equation}
+    Now this expression has to count for all $n \geq n_0$, which is a contradiction because no matter which c we chose, there will eventually be an $n \geq n_0$ that will overcome this expression so that $2^n\geq c$ will count instead and therefor $4^n$ is not O$(2^n)$
+
+\item[Part 4]
+\begin{enumerate}
+    \item[(a)]
+    An equivalent expression for ($\sim$P) using $\odot$ is showed in the following table:
+    
+        \begin{tabular}{|c|c|lcl|c|lcl|}
+            \multicolumn{1}{|l|}{P} & \multicolumn{1}{l|}{Q} & P & \multicolumn{1}{l}{$\odot$} & Q & \multicolumn{1}{l|}{($\sim$P)} & P & \multicolumn{1}{l}{$\odot$} & P \\ \hline
+            T                       & T                      &   & F                        &   & F                          &   & F                        &   \\
+            T                       & F                      &   & T                        &   & F                          &   & F                        &   \\
+            F                       & T                      &   & T                        &   & T                          &   & T                        &   \\
+            F                       & F                      &   & T                        &   & T                          &   & T                        &  
+        \end{tabular} \\
+    
+    $\odot$ can be considered the following way to support the result of the truth table above:\\
+        T $\odot$ T = F \\
+        T $\odot$ F = T \\
+        F $\odot$ T = T \\
+        F $\odot$ F = T
+
+    \item[(b)]
+    An equivalent expression for each of the two expressions can be expressed as following:
+
+    \begin{itemize}
+        \item[(i)]
+        $P \lor Q \leftrightarrow (\sim P)\odot (\sim Q)$ \\
+    \end{itemize} 
+
+        \begin{tabular}{|c|c|lcl|ccc|c|c|lcl|}
+                \multicolumn{1}{|l|}{P} & \multicolumn{1}{l|}{Q} & P & \multicolumn{1}{l}{$\lor$} & Q & \multicolumn{1}{l}{P} & \multicolumn{1}{l}{$\odot$} & \multicolumn{1}{l|}{Q} & \multicolumn{1}{l|}{($\sim$P)} & \multicolumn{1}{l|}{($\sim$Q)} & ($\sim$P) & \multicolumn{1}{l}{$\odot$} & ($\sim$Q) \\ \hline
+                T                       & T                      &   & T                      &   &                       & F                        &                        & F                          & F                          &       & T                        &       \\
+                T                       & F                      &   & T                      &   &                       & T                        &                        & F                          & T                          &       & T                        &       \\
+                F                       & T                      &   & T                      &   &                       & T                        &                        & T                          & F                          &       & T                        &       \\
+                F                       & F                      &   & F                      &   &                       & T                        &                        & T                          & T                          &       & F                        &      
+        \end{tabular} \\
+
+    \begin{itemize}
+        \item[ (ii)] 
+        $P$ \texttt{xor} $Q$ $\leftrightarrow$ $\sim((P\odot Q)\odot ((\sim P)\odot(\sim Q)))$\\
+    \end{itemize}
+
+    \begin{tabular}{|c|c|lcl|cll|}
+        \multicolumn{1}{|l|}{P} & \multicolumn{1}{l|}{Q} & P & \multicolumn{1}{l}{\texttt{xor}} & Q & $\sim((P\odot Q)$ & $\odot$ & $((\sim P)\odot(\sim Q)))$ \\ \hline
+        T                       & T                      &   & F                       &   &                & F    &                       \\
+        T                       & F                      &   & T                       &   &                & T    &                       \\
+        F                       & T                      &   & T                       &   &                & T    &                       \\
+        F                       & F                      &   & F                       &   &                & F    &                      
+        \end{tabular} \\
+
+    The former truth tables can be used to see that this expression holds. 
+
+      
+\end{enumerate}   
+
+\end{itemize}
+
+
+\end{document}
+
