@@ -1,0 +1,16 @@
+E:\Coding\UNI\UNI\Software_cSharp\soloLearn\bin\Debug\net5.0\soloLearn.exe
+E:\Coding\UNI\UNI\Software_cSharp\soloLearn\bin\Debug\net5.0\soloLearn.deps.json
+E:\Coding\UNI\UNI\Software_cSharp\soloLearn\bin\Debug\net5.0\soloLearn.runtimeconfig.json
+E:\Coding\UNI\UNI\Software_cSharp\soloLearn\bin\Debug\net5.0\soloLearn.runtimeconfig.dev.json
+E:\Coding\UNI\UNI\Software_cSharp\soloLearn\bin\Debug\net5.0\soloLearn.dll
+E:\Coding\UNI\UNI\Software_cSharp\soloLearn\bin\Debug\net5.0\ref\soloLearn.dll
+E:\Coding\UNI\UNI\Software_cSharp\soloLearn\bin\Debug\net5.0\soloLearn.pdb
+E:\Coding\UNI\UNI\Software_cSharp\soloLearn\obj\Debug\net5.0\soloLearn.csprojAssemblyReference.cache
+E:\Coding\UNI\UNI\Software_cSharp\soloLearn\obj\Debug\net5.0\soloLearn.GeneratedMSBuildEditorConfig.editorconfig
+E:\Coding\UNI\UNI\Software_cSharp\soloLearn\obj\Debug\net5.0\soloLearn.AssemblyInfoInputs.cache
+E:\Coding\UNI\UNI\Software_cSharp\soloLearn\obj\Debug\net5.0\soloLearn.AssemblyInfo.cs
+E:\Coding\UNI\UNI\Software_cSharp\soloLearn\obj\Debug\net5.0\soloLearn.csproj.CoreCompileInputs.cache
+E:\Coding\UNI\UNI\Software_cSharp\soloLearn\obj\Debug\net5.0\soloLearn.dll
+E:\Coding\UNI\UNI\Software_cSharp\soloLearn\obj\Debug\net5.0\ref\soloLearn.dll
+E:\Coding\UNI\UNI\Software_cSharp\soloLearn\obj\Debug\net5.0\soloLearn.pdb
+E:\Coding\UNI\UNI\Software_cSharp\soloLearn\obj\Debug\net5.0\soloLearn.genruntimeconfig.cache
