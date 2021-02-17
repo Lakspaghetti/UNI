@@ -38,6 +38,12 @@ namespace DIKUdebate {
                 DIKUperson shooter2 = list[1];
 
                 winList.Add (this.Discussion(shooter1, shooter2));
+
+                list.RemoveAt(0);
+                list.RemoveAt(1);
+            }
+            if (list.Count == 1) {
+                winList.add list[0];
             }
         }
     }
