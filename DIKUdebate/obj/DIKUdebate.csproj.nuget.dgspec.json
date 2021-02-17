@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\mikke\\Desktop\\softwareudvikling\\DIKUdebate\\DIKUdebate.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\mikke\\Desktop\\softwareudvikling\\DIKUdebate\\DIKUdebate.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\mikke\\Desktop\\softwareudvikling\\DIKUdebate\\DIKUdebate.csproj",
+        "projectName": "DIKUdebate",
+        "projectPath": "c:\\Users\\mikke\\Desktop\\softwareudvikling\\DIKUdebate\\DIKUdebate.csproj",
+        "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\mikke\\Desktop\\softwareudvikling\\DIKUdebate\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "E:\\Coding\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

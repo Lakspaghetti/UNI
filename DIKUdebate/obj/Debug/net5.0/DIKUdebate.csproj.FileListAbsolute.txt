@@ -1,0 +1,16 @@
+C:\Users\mikke\Desktop\softwareudvikling\DIKUdebate\obj\Debug\net5.0\DIKUdebate.csprojAssemblyReference.cache
+C:\Users\mikke\Desktop\softwareudvikling\DIKUdebate\obj\Debug\net5.0\DIKUdebate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mikke\Desktop\softwareudvikling\DIKUdebate\obj\Debug\net5.0\DIKUdebate.AssemblyInfoInputs.cache
+C:\Users\mikke\Desktop\softwareudvikling\DIKUdebate\obj\Debug\net5.0\DIKUdebate.AssemblyInfo.cs
+C:\Users\mikke\Desktop\softwareudvikling\DIKUdebate\obj\Debug\net5.0\DIKUdebate.csproj.CoreCompileInputs.cache
+C:\Users\mikke\Desktop\softwareudvikling\DIKUdebate\bin\Debug\net5.0\DIKUdebate.exe
+C:\Users\mikke\Desktop\softwareudvikling\DIKUdebate\bin\Debug\net5.0\DIKUdebate.deps.json
+C:\Users\mikke\Desktop\softwareudvikling\DIKUdebate\bin\Debug\net5.0\DIKUdebate.runtimeconfig.json
+C:\Users\mikke\Desktop\softwareudvikling\DIKUdebate\bin\Debug\net5.0\DIKUdebate.runtimeconfig.dev.json
+C:\Users\mikke\Desktop\softwareudvikling\DIKUdebate\bin\Debug\net5.0\DIKUdebate.dll
+C:\Users\mikke\Desktop\softwareudvikling\DIKUdebate\bin\Debug\net5.0\ref\DIKUdebate.dll
+C:\Users\mikke\Desktop\softwareudvikling\DIKUdebate\bin\Debug\net5.0\DIKUdebate.pdb
+C:\Users\mikke\Desktop\softwareudvikling\DIKUdebate\obj\Debug\net5.0\DIKUdebate.dll
+C:\Users\mikke\Desktop\softwareudvikling\DIKUdebate\obj\Debug\net5.0\ref\DIKUdebate.dll
+C:\Users\mikke\Desktop\softwareudvikling\DIKUdebate\obj\Debug\net5.0\DIKUdebate.pdb
+C:\Users\mikke\Desktop\softwareudvikling\DIKUdebate\obj\Debug\net5.0\DIKUdebate.genruntimeconfig.cache
