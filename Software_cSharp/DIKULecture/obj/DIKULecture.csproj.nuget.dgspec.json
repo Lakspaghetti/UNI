@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Coding\\UNI_LUC\\UNI\\DIKUdebate\\DIKUdebate.csproj": {}
+    "c:\\Users\\mikke\\Desktop\\softwareudvikling\\DIKULecture\\DIKULecture.csproj": {}
   },
   "projects": {
-    "E:\\Coding\\UNI_LUC\\UNI\\DIKUdebate\\DIKUdebate.csproj": {
+    "c:\\Users\\mikke\\Desktop\\softwareudvikling\\DIKULecture\\DIKULecture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Coding\\UNI_LUC\\UNI\\DIKUdebate\\DIKUdebate.csproj",
-        "projectName": "DIKUdebate",
-        "projectPath": "E:\\Coding\\UNI_LUC\\UNI\\DIKUdebate\\DIKUdebate.csproj",
+        "projectUniqueName": "c:\\Users\\mikke\\Desktop\\softwareudvikling\\DIKULecture\\DIKULecture.csproj",
+        "projectName": "DIKULecture",
+        "projectPath": "c:\\Users\\mikke\\Desktop\\softwareudvikling\\DIKULecture\\DIKULecture.csproj",
         "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
-        "outputPath": "E:\\Coding\\UNI_LUC\\UNI\\DIKUdebate\\obj\\",
+        "outputPath": "c:\\Users\\mikke\\Desktop\\softwareudvikling\\DIKULecture\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config"
