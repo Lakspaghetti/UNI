@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\mikke\\Desktop\\softwareudvikling\\DIKUdebate\\DIKUdebate.csproj": {}
+    "/Users/mikkelluccarlsen/Desktop/UNI/DIKUdebate/DIKUdebate.csproj": {}
   },
   "projects": {
-    "c:\\Users\\mikke\\Desktop\\softwareudvikling\\DIKUdebate\\DIKUdebate.csproj": {
+    "/Users/mikkelluccarlsen/Desktop/UNI/DIKUdebate/DIKUdebate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\mikke\\Desktop\\softwareudvikling\\DIKUdebate\\DIKUdebate.csproj",
+        "projectUniqueName": "/Users/mikkelluccarlsen/Desktop/UNI/DIKUdebate/DIKUdebate.csproj",
         "projectName": "DIKUdebate",
-        "projectPath": "c:\\Users\\mikke\\Desktop\\softwareudvikling\\DIKUdebate\\DIKUdebate.csproj",
-        "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\mikke\\Desktop\\softwareudvikling\\DIKUdebate\\obj\\",
+        "projectPath": "/Users/mikkelluccarlsen/Desktop/UNI/DIKUdebate/DIKUdebate.csproj",
+        "packagesPath": "/Users/mikkelluccarlsen/.nuget/packages/",
+        "outputPath": "/Users/mikkelluccarlsen/Desktop/UNI/DIKUdebate/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/mikkelluccarlsen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "E:\\Coding\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
         }
       }
     }

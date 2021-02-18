@@ -24,7 +24,7 @@ namespace DIKUdebate {
             this.DoubleArgument = 10;
         }
         public bool hasLost () {
-            if (this.BrainPower <= 0) {
+            if (this.BrainPower <= 0) { //The person has lot when brainpower hits 0 or lower
                 return true;
             }
             else {
@@ -32,7 +32,7 @@ namespace DIKUdebate {
             }
         }
         public bool beDrained (int amount) {
-            if (this.CounterArgument > rand.Next (101)) {
+            if (this.CounterArgument > rand.Next (101)) { //checks if the person dodges an arguement
                 Console.WriteLine("{0} just outplayed you and broke your ankles instead\nThe remaining brainpower of {0} is now {1}\n", this.Name, this.BrainPower);
                 return false;
             }
@@ -43,11 +43,11 @@ namespace DIKUdebate {
             }
         }
         public void Argue (DIKUperson opponent) {
-            if (this.DoubleArgument > rand.Next (101)) {
+            if (this.DoubleArgument > rand.Next (101)) { //checks if the argument critically strikes
                 Console.WriteLine ("{0} 360 noscopes {1} for {2} damage", this.Name, opponent.Name, this.StrengthOfArgument * 2);
                 opponent.beDrained(this.StrengthOfArgument * 2);
             }
-            else {
+            else { //normal strike
                 Console.WriteLine ("{0} dropshots {1} for {2} damage", this.Name, opponent.Name, this.StrengthOfArgument);
                 opponent.beDrained(this.StrengthOfArgument);
             }
