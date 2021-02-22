@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace TicTacToe {
     public enum Cell {
         Empty,

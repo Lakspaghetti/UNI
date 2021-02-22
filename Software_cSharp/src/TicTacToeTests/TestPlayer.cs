@@ -14,7 +14,23 @@ namespace TicTacToeTests {
 
         [Test]
         public void TestMoveDown() {
-            Assert.True(cross.Move('k'));
+            Assert.True(cross.Move('s'));
+            Assert.True(circle.Move('k'))
+        }
+
+        public void TestMoveUp() {
+            Assert.True(cross.Move('w'));
+            Assert.True(circle.Move('i'));
+        }
+
+        public void TestMoveLeft() {
+            Assert.True(cross.Move('a'));
+            Assert.True(cross.Move('j'));
+        }
+
+        public void TestMoveRight() {
+            Assert.True(cross.Move('d'));
+            Assert.True(cross.Move('l'));
         }
     }
 }

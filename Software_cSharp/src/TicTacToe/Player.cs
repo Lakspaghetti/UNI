@@ -64,9 +64,12 @@ namespace TicTacToe {
         public override bool Move(int key) {
             Cursor c = Game.GetInstance.Cursor;
 
-	    // Your code here ...
-
-	    return false;
+	        if (key == 'w' || key == 'a' || key == 's' || key == 'd') {
+                return true;
+            }
+            else {
+                return false;
+            }
         }
 
 

@@ -9,3 +9,16 @@ C:\Users\pkans\OneDrive\Desktop\uni\TA\su21\assignments\3-assignment\su20-A3-han
 C:\Users\pkans\OneDrive\Desktop\uni\TA\su21\assignments\3-assignment\su20-A3-handout\src\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.AssemblyInfo.cs
 C:\Users\pkans\OneDrive\Desktop\uni\TA\su21\assignments\3-assignment\su20-A3-handout\src\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.dll
 C:\Users\pkans\OneDrive\Desktop\uni\TA\su21\assignments\3-assignment\su20-A3-handout\src\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.pdb
+E:\Coding\UNI_LUC\UNI\Software_cSharp\src\TicTacToe\bin\Debug\netcoreapp3.1\TicTacToe.exe
+E:\Coding\UNI_LUC\UNI\Software_cSharp\src\TicTacToe\bin\Debug\netcoreapp3.1\TicTacToe.deps.json
+E:\Coding\UNI_LUC\UNI\Software_cSharp\src\TicTacToe\bin\Debug\netcoreapp3.1\TicTacToe.runtimeconfig.json
+E:\Coding\UNI_LUC\UNI\Software_cSharp\src\TicTacToe\bin\Debug\netcoreapp3.1\TicTacToe.runtimeconfig.dev.json
+E:\Coding\UNI_LUC\UNI\Software_cSharp\src\TicTacToe\bin\Debug\netcoreapp3.1\TicTacToe.dll
+E:\Coding\UNI_LUC\UNI\Software_cSharp\src\TicTacToe\bin\Debug\netcoreapp3.1\TicTacToe.pdb
+E:\Coding\UNI_LUC\UNI\Software_cSharp\src\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.csprojAssemblyReference.cache
+E:\Coding\UNI_LUC\UNI\Software_cSharp\src\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.AssemblyInfoInputs.cache
+E:\Coding\UNI_LUC\UNI\Software_cSharp\src\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.AssemblyInfo.cs
+E:\Coding\UNI_LUC\UNI\Software_cSharp\src\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.csproj.CoreCompileInputs.cache
+E:\Coding\UNI_LUC\UNI\Software_cSharp\src\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.dll
+E:\Coding\UNI_LUC\UNI\Software_cSharp\src\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.pdb
+E:\Coding\UNI_LUC\UNI\Software_cSharp\src\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.genruntimeconfig.cache
