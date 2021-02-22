@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "rUF+8ogb5zs4dwdXGaYwNDUY0QUpzPSRvn0CA59YfihsGb44rNMczD5YICPwc86PRmU0i8h1E5Z/WtjdyiFM0w==",
+  "success": true,
+  "projectFilePath": "E:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\src\\SortingCards\\SortingCards.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mikke\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\mikke\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\mikke\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\mikke\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

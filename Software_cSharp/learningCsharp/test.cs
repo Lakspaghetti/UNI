@@ -10,6 +10,8 @@ namespace learningCsharp
             int myInt = 5;
             int mySndInt = 4;
 
+            int testInt = 3;
+
             double mydouble = 4.3;
             double mySnddouble = 3.2;
 
@@ -58,7 +60,10 @@ namespace learningCsharp
 
             Console.WriteLine(myArr);
 
+            Console.WriteLine(testInt += 4/2);
+
             Console.ReadLine ();
+
         }
     }
 }

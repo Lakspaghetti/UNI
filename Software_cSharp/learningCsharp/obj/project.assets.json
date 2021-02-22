@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Coding\\UNI\\UNI\\Software_cSharp\\learningCsharp\\learningCsharp.csproj",
+      "projectUniqueName": "E:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\learningCsharp\\learningCsharp.csproj",
       "projectName": "learningCsharp",
-      "projectPath": "E:\\Coding\\UNI\\UNI\\Software_cSharp\\learningCsharp\\learningCsharp.csproj",
+      "projectPath": "E:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\learningCsharp\\learningCsharp.csproj",
       "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
-      "outputPath": "E:\\Coding\\UNI\\UNI\\Software_cSharp\\learningCsharp\\obj\\",
+      "outputPath": "E:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\learningCsharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config"
