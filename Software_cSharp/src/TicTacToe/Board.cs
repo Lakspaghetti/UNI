@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace TicTacToe {
     /// <summary>
@@ -35,8 +36,8 @@ namespace TicTacToe {
                 n_places += 1;
                 cell = Cell.Circle;
                 retval = true;
-                // After implementing the method CheckGameEnded(), uncomment below: 
-                // CheckGameEnded();
+                // After implementing the method CheckGameEnded(), uncomment below:
+                CheckGameEnded();
                 break;
             }
 
@@ -59,8 +60,8 @@ namespace TicTacToe {
                 n_places += 1;
                 cell = Cell.Cross;
                 retval = true;
-                // After implementing the method CheckGameEnded(), uncomment below: 
-                // CheckGameEnded();
+                // After implementing the method CheckGameEnded(), uncomment below:
+                CheckGameEnded();
                 break;
             }
 
@@ -71,25 +72,47 @@ namespace TicTacToe {
         /// Determines if either player has 3-in-a-row,
         /// in which case the game is over.
         /// </summary>
-//        private void CheckGameEnded()
-//        {
-//            -> Your code here <-
-//            ->   and here     <-
-//            ->   and so on... <-
-//        }
-
-
+        private void CheckGameEnded() {
+            if (IsGameOver (Cell.Circle)) {
+                State = BoardState.Circle_Wins;
+            }
+            else if (IsGameOver (Cell.Cross)) {
+                State = BoardState.Cross_Wins;
+            }
+            else if (n_places == 9) {
+                State = BoardState.Tied;
+            }
+        }
         /// <summary>
         /// check all possible combinations for the target cell
         /// of winning the game (row, column, or slope).
         /// </summary>
-//        private bool IsGameOver(Cell cell)
-//        {
-//            -> Your code here <-
-//            ->   and here     <-
-//            ->   and so on... <-        
-//        }
-
+        private bool IsGameOver (Cell cell) {
+            for (var i = 0; i < Constants.SIZE; i++) {
+                for (var j = 0; j < Constants.SIZE; j++) {
+                    Position currentPos = new Position (i, j);
+                    if (currentPos.X == 1 && currentPos.Y == 1) {
+                        if (cells[i, j] == cell && cells[i - 1, j - 1] == cell && cells[i + 1, j + 1] == cell) { //diagonal win
+                            return true;
+                        } //else if to keep the line below 100 characters
+                        else if (cells[i, j] == cell && cells[i - 1, j + 1] == cell && cells[i + 1, j - 1] == cell) { //diagonal win
+                            return true;
+                        }
+                    }
+                    if (currentPos.X == 1) {
+                        if (cells[i, j] == cell && cells[i - 1, j] == cell && cells[i + 1, j] == cell) { //horizontal win
+                            return true;
+                        }
+                    }
+                    if (currentPos.Y == 1){
+                        if (cells[i, j] == cell && cells[i, j + 1] == cell && cells[i, j - 1] == cell) { //vertical win
+                            return true;
+                        }
+                    }
+                }
+            }
+            return false; //snak med magnus
+        }
 
         /// <summary>
         ///     Draw the game board with its associated borders.

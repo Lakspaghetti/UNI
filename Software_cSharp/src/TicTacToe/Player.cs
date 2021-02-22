@@ -23,10 +23,20 @@ namespace TicTacToe {
         public override bool Move(int key) {
             Cursor c = Game.GetInstance.Cursor;
 
-            if (key == 'i' || key == 'j' || key == 'k' || key == 'l') {
+            switch (key) {
+            case 'i':
+                c.MoveUp ();
                 return true;
-            }
-            else {
+            case 'k':
+                c.MoveDown ();
+                return true;
+            case 'j':
+                c.MoveLeft ();
+                return true;
+            case 'l':
+                c.MoveRight ();
+                return true;
+            default:
                 return false;
             }
         }
@@ -64,10 +74,20 @@ namespace TicTacToe {
         public override bool Move(int key) {
             Cursor c = Game.GetInstance.Cursor;
 
-	        if (key == 'w' || key == 'a' || key == 's' || key == 'd') {
+	        switch (key) {
+            case 'w':
+                c.MoveUp ();
                 return true;
-            }
-            else {
+            case 's':
+                c.MoveDown ();
+                return true;
+            case 'a':
+                c.MoveLeft ();
+                return true;
+            case 'd':
+                c.MoveRight ();
+                return true;
+            default:
                 return false;
             }
         }

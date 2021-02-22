@@ -1,0 +1,19 @@
+private bool IsGameOver (Cell cell) {
+            List<Position> posLst = new List<Position> (); //fuck cellens position vi gennemløber hele boardet og checker for den bestemte celle type
+            for (var i = 0; i < Constants.SIZE; i++) {
+                for (var j = 0; j < Constants.SIZE; j++) {
+                    if (cells[i, j] == cell) {
+                        posLst.Add(new Position (i, j));
+                    }
+                }
+            }
+            if (posLst.Count >= 3) { // for loop match hver position og se lav adjacent positions til at tjekke om der er 2 adjacents
+                List<Position> endResult = new List<Position> ();
+                for (var k = 0; k < posLst.Count; k++) {
+                    
+                }
+            }
+            else {
+                return false;
+            }
+        }

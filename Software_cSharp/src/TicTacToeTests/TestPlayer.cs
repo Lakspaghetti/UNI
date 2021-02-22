@@ -32,5 +32,9 @@ namespace TicTacToeTests {
             Assert.True(cross.Move('d'));
             Assert.True(cross.Move('l'));
         }
+        public void fail() {
+            Assert.False(cross.Move('z'));
+            Assert.False(cross.Move('z'));
+        }
     }
 }
