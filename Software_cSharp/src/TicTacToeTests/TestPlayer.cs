@@ -15,7 +15,7 @@ namespace TicTacToeTests {
         [Test]
         public void TestMoveDown() {
             Assert.True(cross.Move('s'));
-            Assert.True(circle.Move('k'))
+            Assert.True(circle.Move('k'));
         }
 
         public void TestMoveUp() {
