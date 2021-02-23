@@ -98,5 +98,90 @@ namespace TicTacToeTests {
         }
 
 
+        //CROSS TEST FROM HERE!!!
+
+
+        [Test]
+        public void CrossWinLeft () {
+            myBoard.PlayCross (left);
+            myBoard.PlayCross (topLeft);
+            myBoard.PlayCross (bottomLeft);
+            Assert.True(myBoard.State == BoardState.Cross_Wins);
+        }
+
+        [Test]
+        public void CrossWinRight () {
+            myBoard.PlayCross (right);
+            myBoard.PlayCross (topRight);
+            myBoard.PlayCross (bottomRight);
+            Assert.True(myBoard.State == BoardState.Cross_Wins);
+        }
+
+        [Test]
+        public void CrossWinTop () {
+            myBoard.PlayCross (top);
+            myBoard.PlayCross (topRight);
+            myBoard.PlayCross (topLeft);
+            Assert.True(myBoard.State == BoardState.Cross_Wins);
+        }
+
+        [Test]
+        public void CrossWinBottom () {
+            myBoard.PlayCross (bottom);
+            myBoard.PlayCross (bottomRight);
+            myBoard.PlayCross (bottomLeft);
+            Assert.True(myBoard.State == BoardState.Cross_Wins);
+        }
+
+        [Test]
+        public void CrossWinMidHor () {
+            myBoard.PlayCross (left);
+            myBoard.PlayCross (right);
+            myBoard.PlayCross (middle);
+            Assert.True(myBoard.State == BoardState.Cross_Wins);
+        }
+
+        [Test]
+        public void CrossWinMidVer () {
+            myBoard.PlayCross (top);
+            myBoard.PlayCross (bottom);
+            myBoard.PlayCross (middle);
+            Assert.True(myBoard.State == BoardState.Cross_Wins);
+        }
+
+        [Test]
+        public void CrossWinDiagonalOne () {
+            myBoard.PlayCross (topRight);
+            myBoard.PlayCross (bottomLeft);
+            myBoard.PlayCross (middle);
+            Assert.True(myBoard.State == BoardState.Cross_Wins);
+        }
+
+        [Test]
+        public void CrossWinDiagonalTwo () {
+            myBoard.PlayCross (topLeft);
+            myBoard.PlayCross (bottomRight);
+            myBoard.PlayCross (middle);
+            Assert.True(myBoard.State == BoardState.Cross_Wins);
+        }
+
+
+        //TIED TEST FROM HERE
+
+
+        [Test]
+        public void Tíed () {
+            myBoard.PlayCross (top);
+            myBoard.PlayCross (right);
+            myBoard.PlayCross (bottomLeft);
+            myBoard.PlayCross (bottomRight);
+
+            myBoard.PlayCircle (topLeft);
+            myBoard.PlayCircle (topRight);
+            myBoard.PlayCircle (middle);
+            myBoard.PlayCircle (left);
+            myBoard.PlayCircle (bottom);
+            Assert.True(myBoard.State == BoardState.Tied);
+        }
     }
 }

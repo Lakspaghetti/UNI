@@ -90,8 +90,7 @@ namespace TicTacToe {
         private bool IsGameOver (Cell cell) {
             for (var i = 0; i < Constants.SIZE; i++) {
                 for (var j = 0; j < Constants.SIZE; j++) {
-                    Position currentPos = new Position (i, j);
-                    if (currentPos.X == 1 && currentPos.Y == 1) {
+                    if (i == 1 && j == 1) {
                         if (cells[i, j] == cell && cells[i - 1, j - 1] == cell && cells[i + 1, j + 1] == cell) { //diagonal win
                             return true;
                         } //else if to keep the line below 100 characters
@@ -99,19 +98,19 @@ namespace TicTacToe {
                             return true;
                         }
                     }
-                    if (currentPos.X == 1) {
+                    if (i == 1) {
                         if (cells[i, j] == cell && cells[i - 1, j] == cell && cells[i + 1, j] == cell) { //horizontal win
                             return true;
                         }
                     }
-                    if (currentPos.Y == 1){
+                    if (j == 1){
                         if (cells[i, j] == cell && cells[i, j + 1] == cell && cells[i, j - 1] == cell) { //vertical win
                             return true;
                         }
                     }
                 }
             }
-            return false; //snak med magnus
+            return false;
         }
 
         /// <summary>
