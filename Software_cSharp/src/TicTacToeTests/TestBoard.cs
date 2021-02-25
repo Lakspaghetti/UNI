@@ -7,7 +7,7 @@ namespace TicTacToeTests {
         // We could use some tests...
         // Make some !!
         //all possible positions on the board
-        public Position middle;
+        Position middle;
         Position right;
         Position top;
         Position topRight;
@@ -26,9 +26,9 @@ namespace TicTacToeTests {
             top = new Position (1, 0);
             bottom = new Position (1, 2);
             topRight = new Position (2, 0);
-            bottomLeft = new Position (0, 2);
-            bottomRight = new Position (2, 2);
             topLeft = new Position (0, 0);
+            bottomRight = new Position (2, 2);
+            bottomLeft = new Position (0, 2);
 
             myBoard = new Board ();
         }
