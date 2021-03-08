@@ -1,6 +1,6 @@
 using System;
 
-namespace _Luc_person { 
+namespace Person {
     enum RiskGroup {
         High,
         Medium,

@@ -1,6 +1,6 @@
 using System;
 
-namespace _Luc_person {
+namespace Person {
     //https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=net-5.0
     //If the obj that is compared to is not of the same type it will throw an ArgumentException
     class Person : IComparable {

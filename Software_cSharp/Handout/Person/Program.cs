@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace _Luc_person {
+namespace Person {
     class Program {
         static void Main(string[] args) {
             Person Mikkel = new Person (Demographic.Youth, 19, "Mikkel", RiskGroup.Low);
