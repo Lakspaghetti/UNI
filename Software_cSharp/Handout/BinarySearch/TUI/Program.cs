@@ -26,7 +26,6 @@ namespace TUI {
             MainClass.TestArray(gen.NextArray(10, 10));
             MainClass.TestArray(gen.NextArray(10, 10));
             MainClass.TestArray(gen.NextArray(10, 10));
-            MainClass.TestArray(gen.NextArray(10, 1));
         }
     }
 }
