@@ -4,7 +4,7 @@ namespace SortingCards
 {
   class Card : IComparable<Card>
   {
-    public int rank; 
+    public int rank;
     public int suit;
 
     public Card(int rank, int suit) {
@@ -27,7 +27,7 @@ namespace SortingCards
         }
         else {
           return 1;
-        }    
+        }
       }
     }
 

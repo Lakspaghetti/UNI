@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\TUI\\TUI.csproj": {}
+    "E:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\TUI\\TUI.csproj": {}
   },
   "projects": {
-    "e:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\Library\\Library.csproj": {
+    "E:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\Library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\Library\\Library.csproj",
+        "projectUniqueName": "E:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\Library\\Library.csproj",
         "projectName": "Library",
-        "projectPath": "e:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\Library\\Library.csproj",
+        "projectPath": "E:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\Library\\Library.csproj",
         "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
-        "outputPath": "e:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\Library\\obj\\",
+        "outputPath": "E:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -56,14 +56,14 @@
         }
       }
     },
-    "e:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\TUI\\TUI.csproj": {
+    "E:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\TUI\\TUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\TUI\\TUI.csproj",
+        "projectUniqueName": "E:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\TUI\\TUI.csproj",
         "projectName": "TUI",
-        "projectPath": "e:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\TUI\\TUI.csproj",
+        "projectPath": "E:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\TUI\\TUI.csproj",
         "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
-        "outputPath": "e:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\TUI\\obj\\",
+        "outputPath": "E:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\TUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -78,8 +78,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "e:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\Library\\Library.csproj": {
-                "projectPath": "e:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\Library\\Library.csproj"
+              "E:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\Library\\Library.csproj": {
+                "projectPath": "E:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\Library\\Library.csproj"
               }
             }
           }

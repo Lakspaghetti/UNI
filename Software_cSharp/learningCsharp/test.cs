@@ -62,6 +62,13 @@ namespace learningCsharp
 
             Console.WriteLine(testInt += 4/2);
 
+            if (myString < mySndString) {
+                Console.WriteLine("genialt");
+            }
+            else {
+                Console.WriteLine("det virker squ");
+            }
+
             Console.ReadLine ();
 
         }
