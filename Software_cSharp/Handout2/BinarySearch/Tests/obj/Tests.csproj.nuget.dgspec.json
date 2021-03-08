@@ -1,0 +1,187 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/BinarySearch/Tests/Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/BinarySearch/Library/Library.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/BinarySearch/Library/Library.csproj",
+        "projectName": "Library",
+        "projectPath": "/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/BinarySearch/Library/Library.csproj",
+        "packagesPath": "/Users/mikkelluccarlsen/.nuget/packages/",
+        "outputPath": "/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/BinarySearch/Library/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mikkelluccarlsen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/BinarySearch/Tests/Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/BinarySearch/Tests/Tests.csproj",
+        "projectName": "Tests",
+        "projectPath": "/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/BinarySearch/Tests/Tests.csproj",
+        "packagesPath": "/Users/mikkelluccarlsen/.nuget/packages/",
+        "outputPath": "/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/BinarySearch/Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mikkelluccarlsen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/BinarySearch/Library/Library.csproj": {
+                "projectPath": "/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/BinarySearch/Library/Library.csproj"
+              },
+              "/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/Person/Person.csproj": {
+                "projectPath": "/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/Person/Person.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "Nunit3TestAdapter": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/Person/Person.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/Person/Person.csproj",
+        "projectName": "Person",
+        "projectPath": "/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/Person/Person.csproj",
+        "packagesPath": "/Users/mikkelluccarlsen/.nuget/packages/",
+        "outputPath": "/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/Person/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mikkelluccarlsen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

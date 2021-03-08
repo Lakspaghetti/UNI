@@ -1,0 +1,15 @@
+/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/Person/obj/Debug/net5.0/Person.csprojAssemblyReference.cache
+/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/Person/obj/Debug/net5.0/Person.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/Person/obj/Debug/net5.0/Person.AssemblyInfoInputs.cache
+/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/Person/obj/Debug/net5.0/Person.AssemblyInfo.cs
+/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/Person/obj/Debug/net5.0/Person.csproj.CoreCompileInputs.cache
+/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/Person/bin/Debug/net5.0/Person.deps.json
+/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/Person/bin/Debug/net5.0/Person.runtimeconfig.json
+/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/Person/bin/Debug/net5.0/Person.runtimeconfig.dev.json
+/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/Person/bin/Debug/net5.0/Person.dll
+/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/Person/bin/Debug/net5.0/ref/Person.dll
+/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/Person/bin/Debug/net5.0/Person.pdb
+/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/Person/obj/Debug/net5.0/Person.dll
+/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/Person/obj/Debug/net5.0/ref/Person.dll
+/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/Person/obj/Debug/net5.0/Person.pdb
+/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/Person/obj/Debug/net5.0/Person.genruntimeconfig.cache
