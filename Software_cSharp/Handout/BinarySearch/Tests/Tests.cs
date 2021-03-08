@@ -30,6 +30,10 @@ namespace Tests {
             Assert.AreEqual(Search.Binary(gen.NextArray(0, 0), i),-1);
             }
         }
+        [Test]
+        public void TestElementTwo() {
+            Assert.AreNotEqual(Search.Binary(gen.NextArray(10, 0), 0),-1);
+        }
 
     }
 }

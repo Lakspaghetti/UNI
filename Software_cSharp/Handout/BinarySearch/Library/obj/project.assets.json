@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\mikke\\.nuget\\packages\\": {}
+    "/Users/mikkelluccarlsen/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "e:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\Library\\Library.csproj",
+      "projectUniqueName": "/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout/BinarySearch/Library/Library.csproj",
       "projectName": "Library",
-      "projectPath": "e:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\Library\\Library.csproj",
-      "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
-      "outputPath": "e:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\Handout\\BinarySearch\\Library\\obj\\",
+      "projectPath": "/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout/BinarySearch/Library/Library.csproj",
+      "packagesPath": "/Users/mikkelluccarlsen/.nuget/packages/",
+      "outputPath": "/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout/BinarySearch/Library/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/mikkelluccarlsen/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "E:\\Coding\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
       }
     }
   }
