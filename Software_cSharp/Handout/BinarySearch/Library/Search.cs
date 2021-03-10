@@ -7,7 +7,7 @@ namespace Library {
             var high = array.Length - 1;
 
             while (low <= high) {
-                var mid = (high + low) / 2;
+                var mid = low + (high - low)/2; //(high + low) / 2
                 var midVal = array[mid];
                 var relation = midVal.CompareTo(target);
 

@@ -101,3 +101,6 @@
 /Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/BinarySearch/Tests/obj/Debug/net5.0/ref/Tests.dll
 /Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/BinarySearch/Tests/obj/Debug/net5.0/Tests.pdb
 /Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/BinarySearch/Tests/obj/Debug/net5.0/Tests.genruntimeconfig.cache
+e:\Coding\UNI_LUC\UNI\Software_cSharp\Handout\BinarySearch\Tests\obj\Debug\net5.0\Tests.dll
+e:\Coding\UNI_LUC\UNI\Software_cSharp\Handout\BinarySearch\Tests\obj\Debug\net5.0\ref\Tests.dll
+e:\Coding\UNI_LUC\UNI\Software_cSharp\Handout\BinarySearch\Tests\obj\Debug\net5.0\Tests.pdb

@@ -39,5 +39,10 @@ namespace Tests {
         public void TestElementTwo() {
             Assert.AreNotEqual(Search.Binary(gen.NextArray(10, 0), 0),-1);
         }
+
+        [Test]
+        public void TestBig() {
+            Assert.AreEqual(Search.Binary(gen.NextArray(2147483646, 1000), 69),1);
+        }
     }
 }
