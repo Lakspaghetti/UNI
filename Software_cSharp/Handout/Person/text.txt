@@ -1,0 +1,34 @@
+using System;
+using System.Collections;
+
+namespace Person {
+    internal class Program {
+        private static void Main(string[] args) {
+
+            PersonClass[] PeopleArr = new PersonClass[] {
+                new PersonClass (Demographic.Youth, 19, "Mikkel", RiskGroup.Low),
+                new PersonClass (Demographic.Youth, 27, "Mathilde", RiskGroup.Low),
+                new PersonClass (Demographic.Youth, 22, "Magnus", RiskGroup.Low),
+                new PersonClass (Demographic.Adult, 47, "Kathrin", RiskGroup.Medium),
+                new PersonClass (Demographic.Adult, 53, "Kim", RiskGroup.Medium),
+                new PersonClass (Demographic.Child, 15, "Julie", RiskGroup.Low),
+                new PersonClass (Demographic.Adult, 52, "Charlotte", RiskGroup.High),
+                new PersonClass (Demographic.Youth, 19, "lilV", RiskGroup.Low),
+                new PersonClass (Demographic.Youth, 20, "Lucas", RiskGroup.Low),
+                new PersonClass (Demographic.Senior, 60, "olGang", RiskGroup.High),
+            };
+
+            foreach (PersonClass per in PeopleArr) {
+                Console.WriteLine(per);
+            }
+
+            Array.Sort(PeopleArr, 0, 9, CompareTo);
+
+            Console.WriteLine("\n");
+
+            foreach (PersonClass per in PeopleArr) {
+                Console.WriteLine(per);
+            }
+        }
+    }
+}
