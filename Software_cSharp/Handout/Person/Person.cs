@@ -1,15 +1,15 @@
 using System;
 
-namespace _Luc_person {
+namespace Person {
     //https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=net-5.0
     //If the obj that is compared to is not of the same type it will throw an ArgumentException
-    class Person : IComparable {
+    public class PersonClass : IComparable {
         private Demographic demographic;
         private int Age;
         private string Name;
         private RiskGroup riskgroup;
 
-        public Person (Demographic demo, int age, string name, RiskGroup risk) {
+        public PersonClass (Demographic demo, int age, string name, RiskGroup risk) {
             this.demographic = demo;
             this.Age = age;
             this.Name = name;
@@ -17,7 +17,7 @@ namespace _Luc_person {
         }
 
         public int CompareTo(object obj) {
-            Person oPerson = obj as Person;
+            PersonClass oPerson = obj as PersonClass;
             if (this.riskgroup == oPerson.riskgroup) {
                 if (this.demographic == oPerson.demographic) {
                     if (this.Age == oPerson.Age) { //size based on alphabetical order from name

@@ -1,7 +1,7 @@
 using System;
 
-namespace _Luc_person { 
-    enum RiskGroup {
+namespace Person {
+    public enum RiskGroup {
         High,
         Medium,
         Low
