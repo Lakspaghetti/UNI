@@ -18,6 +18,15 @@ namespace TUI {
                     Console.WriteLine("{0} was found in index {1}.", i, result);
                 }
             }
+            Console.WriteLine("\n\n\nFrom here jump search\n\n\n");
+            for (var j = 0; j <= 11; j++) {
+                var Jresult = Search.Jump(array, j);
+                if (Jresult == -1) {
+                    Console.WriteLine("{0} was not found.", j);
+                } else {
+                    Console.WriteLine("{0} was found in index {1}.", j, Jresult);
+                }
+            }
         }
 
         public static void Main(string[] args) {

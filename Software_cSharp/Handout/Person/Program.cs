@@ -11,7 +11,7 @@ namespace Person {
             PersonClass Kathrin = new PersonClass (Demographic.Adult, 47, "Kathrin", RiskGroup.Medium);
             PersonClass Kim = new PersonClass (Demographic.Adult, 53, "Kim", RiskGroup.Medium);
             PersonClass Julie = new PersonClass (Demographic.Child, 15, "Julie", RiskGroup.Low);
-            PersonClass Charlotte = new PersonClass (Demographic.Adult, 52, "Charlotte", RiskGroup.High);
+            PersonClass Charlotte = new PersonClass (Demographic.Senior, 52, "Charlotte", RiskGroup.High);
             PersonClass lilV = new PersonClass (Demographic.Youth, 19, "lilV", RiskGroup.Low);
             PersonClass Lucas = new PersonClass (Demographic.Youth, 20, "Lucas", RiskGroup.Low);
             PersonClass tenth = new PersonClass (Demographic.Senior, 60, "olGang", RiskGroup.High);

@@ -10,3 +10,15 @@
 /Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/BinarySearch/Library/obj/Debug/net5.0/Library.dll
 /Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/BinarySearch/Library/obj/Debug/net5.0/ref/Library.dll
 /Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/Handout2/BinarySearch/Library/obj/Debug/net5.0/Library.pdb
+E:\Coding\UNI_LUC\UNI\Software_cSharp\Handout\BinarySearch\Library\bin\Debug\net5.0\Library.deps.json
+E:\Coding\UNI_LUC\UNI\Software_cSharp\Handout\BinarySearch\Library\bin\Debug\net5.0\Library.dll
+E:\Coding\UNI_LUC\UNI\Software_cSharp\Handout\BinarySearch\Library\bin\Debug\net5.0\ref\Library.dll
+E:\Coding\UNI_LUC\UNI\Software_cSharp\Handout\BinarySearch\Library\bin\Debug\net5.0\Library.pdb
+E:\Coding\UNI_LUC\UNI\Software_cSharp\Handout\BinarySearch\Library\obj\Debug\net5.0\Library.csprojAssemblyReference.cache
+E:\Coding\UNI_LUC\UNI\Software_cSharp\Handout\BinarySearch\Library\obj\Debug\net5.0\Library.GeneratedMSBuildEditorConfig.editorconfig
+E:\Coding\UNI_LUC\UNI\Software_cSharp\Handout\BinarySearch\Library\obj\Debug\net5.0\Library.AssemblyInfoInputs.cache
+E:\Coding\UNI_LUC\UNI\Software_cSharp\Handout\BinarySearch\Library\obj\Debug\net5.0\Library.AssemblyInfo.cs
+E:\Coding\UNI_LUC\UNI\Software_cSharp\Handout\BinarySearch\Library\obj\Debug\net5.0\Library.csproj.CoreCompileInputs.cache
+E:\Coding\UNI_LUC\UNI\Software_cSharp\Handout\BinarySearch\Library\obj\Debug\net5.0\Library.dll
+E:\Coding\UNI_LUC\UNI\Software_cSharp\Handout\BinarySearch\Library\obj\Debug\net5.0\ref\Library.dll
+E:\Coding\UNI_LUC\UNI\Software_cSharp\Handout\BinarySearch\Library\obj\Debug\net5.0\Library.pdb

@@ -21,6 +21,9 @@ namespace learningCsharp
 
             String[] myStringArray = new String[5] {"hej", "med", "dig", "bla", "bla"}; 
 
+            int[] myArrInt = {};
+            var myItem = myArrInt[^1];
+
             Array myArr = Array.CreateInstance(typeof(string), 4);
 
             Console.WriteLine("Hello World!");
@@ -60,7 +63,7 @@ namespace learningCsharp
 
             Console.WriteLine(myArr);
 
-            Console.WriteLine(testInt += 4/2);
+            Console.WriteLine(myArrInt[0]);
 
             Console.ReadLine ();
 
