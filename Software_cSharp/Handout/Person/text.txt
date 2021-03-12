@@ -33,15 +33,16 @@ namespace Person {
     }
 }
 
-public static int Binary(IComparable[] array, IComparable target) {
+
+        public static int Binary(IComparable[] array, IComparable target) {
             if (array.Length > 0) {
                 var low = 0;
                 var high = array.Length - 1;
                 //checks the last and first element to see if target can be inbetween
                 if (array[0].CompareTo(target) <= 0 && array[high].CompareTo(target) >= 0) {
-                    while (low <= high) {
-                        var mid = low + (high - low)/2; //(high + low) / 2
-                        var midVal = array[mid];
+                    while (low <= high) { //only less than now
+                        var mid = low + (high - low)/2; //(high + low) / 2 - can also be low/2 + high/2
+                        var midVal = array[mid]; //redundant, midVal can be replaced by array[mid] in relation
                         var relation = midVal.CompareTo(target);
 
                         if (relation < 0) {
@@ -49,11 +50,17 @@ public static int Binary(IComparable[] array, IComparable target) {
                         } else if (relation > 0) {
                             high = mid - 1;
                         } else {
+                            while (!mid.Equals(0)) { //array[mid - 1].Equals(array[mid])
+                                if (array[mid - 1].Equals(array[mid]) ) {
+                                mid -= 1;
+                                }
+                                else {
+                                    break;
+                                }
+                            }
                             return mid;
                         }
                     }
-
-                    return -1;
                 }
                 return -1;
             }

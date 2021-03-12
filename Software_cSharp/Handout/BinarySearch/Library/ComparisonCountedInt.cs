@@ -2,22 +2,36 @@ using System;
 
 namespace Library {
     public class ComparisonCountedInt : IComparable {
-        static int compareInt;
-        private int numOfComp;
-        readonly int ComparisonCount;
+        readonly int compareInt;
+        private int ComparisonCount;
         public ComparisonCountedInt (int myInt) {
             compareInt = myInt;
-            numOfComp = 0;
-            ComparisonCount = numOfComp;
+            ComparisonCount = 0;
         }
         public int CompareTo(object obj) {
-            numOfComp++;
-            return this.CompareTo(obj);
+            if (obj == null) return 1;
+
+            ComparisonCountedInt compInt = obj as ComparisonCountedInt;
+            if (compInt != null) {
+                this.ComparisonCount++;
+                return this.compareInt.CompareTo(compInt.compareInt);
+            }
+            else {
+                throw new ArgumentException("Object is not a ComparisonCountedInt");
+            }
+
         }
         public static int CountComparisons(ComparisonCountedInt[] array) {
-            return 2; //confusion much
+            int result = 0;
+            foreach (var num in array) {
+                result += num.ComparisonCount;
+            }
+            return result;
         }
-
-
+        public static void ResetComparisons(ComparisonCountedInt[] array) {
+            foreach (var elm in array) {
+                elm.ComparisonCount = 0;
+            }
+        }
     }
 }

@@ -13,7 +13,7 @@ namespace Library {
                 //checks the last and first element to see if target can be inbetween
                 if (array[0].CompareTo(target) <= 0 && array[high].CompareTo(target) >= 0) {
                     while (low < high) { //only less than now
-                        var mid = low + (high - low)/2; //(high + low) / 2 - can also be low/2 + high/2(?)
+                        var mid = low + (high - low)/2; //(high + low) / 2 - can also be low/2 + high/2
                         var midVal = array[mid]; //redundant, midVal can be replaced by array[mid] in relation
                         var relation = midVal.CompareTo(target);
 
