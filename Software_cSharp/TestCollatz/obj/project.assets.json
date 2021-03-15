@@ -4623,19 +4623,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mikke\\.nuget\\packages\\": {}
+    "/Users/mikkelluccarlsen/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\TestCollatz\\TestCollatz.csproj",
+      "projectUniqueName": "/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/TestCollatz/TestCollatz.csproj",
       "projectName": "TestCollatz",
-      "projectPath": "E:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\TestCollatz\\TestCollatz.csproj",
-      "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
-      "outputPath": "E:\\Coding\\UNI_LUC\\UNI\\Software_cSharp\\TestCollatz\\obj\\",
+      "projectPath": "/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/TestCollatz/TestCollatz.csproj",
+      "packagesPath": "/Users/mikkelluccarlsen/.nuget/packages/",
+      "outputPath": "/Users/mikkelluccarlsen/Desktop/UNI/Software_cSharp/TestCollatz/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/mikkelluccarlsen/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -4687,7 +4687,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "E:\\Coding\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
       }
     }
   }
