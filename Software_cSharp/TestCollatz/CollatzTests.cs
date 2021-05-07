@@ -30,11 +30,6 @@ namespace TestCollatz {
             Assert.AreEqual(CollatzImpl.Collatz(n, max_len, max_size), 0);
         }
 
-        [TestCase(4, 3, 8)] // n > 1, k = 2, if statement twice
-        public void TestPathSnd(int n, int max_len, int max_size) {
-            Assert.AreEqual(CollatzImpl.Collatz(n, max_len, max_size), 2);
-        }
-
         [TestCase(5, 1, 17)] // len <= max_len, k = 2, else then if
         public void TestPathThrd(int n, int max_len, int max_size) {
             Assert.AreEqual(CollatzImpl.Collatz(n, max_len, max_size), 2);
