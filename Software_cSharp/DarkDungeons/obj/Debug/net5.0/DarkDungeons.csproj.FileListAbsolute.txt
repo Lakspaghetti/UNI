@@ -1,0 +1,16 @@
+E:\Coding\UNI_LUC\UNI\Software_cSharp\DarkDungeons\obj\Debug\net5.0\DarkDungeons.csprojAssemblyReference.cache
+E:\Coding\UNI_LUC\UNI\Software_cSharp\DarkDungeons\obj\Debug\net5.0\DarkDungeons.GeneratedMSBuildEditorConfig.editorconfig
+E:\Coding\UNI_LUC\UNI\Software_cSharp\DarkDungeons\obj\Debug\net5.0\DarkDungeons.AssemblyInfoInputs.cache
+E:\Coding\UNI_LUC\UNI\Software_cSharp\DarkDungeons\obj\Debug\net5.0\DarkDungeons.AssemblyInfo.cs
+E:\Coding\UNI_LUC\UNI\Software_cSharp\DarkDungeons\obj\Debug\net5.0\DarkDungeons.csproj.CoreCompileInputs.cache
+E:\Coding\UNI_LUC\UNI\Software_cSharp\DarkDungeons\bin\Debug\net5.0\DarkDungeons.exe
+E:\Coding\UNI_LUC\UNI\Software_cSharp\DarkDungeons\bin\Debug\net5.0\DarkDungeons.deps.json
+E:\Coding\UNI_LUC\UNI\Software_cSharp\DarkDungeons\bin\Debug\net5.0\DarkDungeons.runtimeconfig.json
+E:\Coding\UNI_LUC\UNI\Software_cSharp\DarkDungeons\bin\Debug\net5.0\DarkDungeons.runtimeconfig.dev.json
+E:\Coding\UNI_LUC\UNI\Software_cSharp\DarkDungeons\bin\Debug\net5.0\DarkDungeons.dll
+E:\Coding\UNI_LUC\UNI\Software_cSharp\DarkDungeons\bin\Debug\net5.0\ref\DarkDungeons.dll
+E:\Coding\UNI_LUC\UNI\Software_cSharp\DarkDungeons\bin\Debug\net5.0\DarkDungeons.pdb
+E:\Coding\UNI_LUC\UNI\Software_cSharp\DarkDungeons\obj\Debug\net5.0\DarkDungeons.dll
+E:\Coding\UNI_LUC\UNI\Software_cSharp\DarkDungeons\obj\Debug\net5.0\ref\DarkDungeons.dll
+E:\Coding\UNI_LUC\UNI\Software_cSharp\DarkDungeons\obj\Debug\net5.0\DarkDungeons.pdb
+E:\Coding\UNI_LUC\UNI\Software_cSharp\DarkDungeons\obj\Debug\net5.0\DarkDungeons.genruntimeconfig.cache

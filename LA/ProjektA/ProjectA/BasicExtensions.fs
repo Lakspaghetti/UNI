@@ -47,13 +47,11 @@ type BasicOps = class
   static member MatVecProduct (A : Matrix) (v : Vector) : Vector =
     let m_rows = A.M_Rows
     let n_cols = A.N_Cols
-    let mutable b = Vector(m_rows-1)
+    let mutable b = Vector(m_rows)
 
-    for i in 0..m_rows-1 do
-      let mutable tempvar = 0.0
-      for j in 0..n_cols-1 do
-        tempvar <- tempvar + ((A.[i,j]) * (v.[j]))
-      b.[i] <- tempvar
+    for i in 0..m_rows-1 do      
+      for j in 0..n_cols-1 do        
+        b.[i] <- b.[i] + A.[i,j] * v.[j]        
     b
 
   /// <summary>
@@ -73,14 +71,13 @@ type BasicOps = class
   static member MatrixProduct (A : Matrix) (B : Matrix) : Matrix =
     let ma_rows = A.M_Rows
     let na_cols = A.N_Cols
-    let mb_rows = B.M_Rows
     let nb_cols = B.N_Cols
     let mutable C = Matrix(ma_rows, nb_cols)
 
-    for i in 0..ma_rows-1 do
-      for j in 0..nb_cols-1 do
-        for k in 0..na_cols-1 do
-          C.[i,j] <- C.[i,j] + A.[i,k] * B.[k,j]
+    for i in 0..ma_rows-1 do //M
+      for j in 0..nb_cols-1 do //P
+        for k in 0..na_cols-1 do //N
+          C.[i,j] <- C.[i,j] + A.[i,k] * B.[k,j] // matrix A is M x N. Matrix B is N x P. Therefor C is M x P
     C
 
   /// <summary>
@@ -98,11 +95,11 @@ type BasicOps = class
   static member Transpose (A : Matrix) : Matrix =
     let m_rows = A.M_Rows
     let n_cols = A.N_Cols
-    let mutable B =  Matrix(n_cols, m_rows)
+    let mutable B =  Matrix(n_cols, m_rows) //reverse size
 
     for i in 0..m_rows-1 do
       for j in 0..n_cols-1 do
-        B.[j,i] <- A.[i,j]
+        B.[j,i] <- A.[i,j] //transpose the elements
     B
 
   /// <summary>
@@ -142,7 +139,22 @@ type BasicOps = class
   ///
   /// <returns>A square submatrix of the Matrix A.</returns>
   static member SquareSubMatrix (A : Matrix) (i : int) (j : int) : Matrix =
-     let mutable M =  Matrix(1,1)
-     M
+    let m_rows = A.M_Rows
+    let n_cols = A.N_Cols
+    let mutable M = Matrix(m_rows-1, n_cols-1)
+
+    for K in 0..m_rows-1 do
+      let mutable tempRow = []
+      if K = i then //excludes the i row
+        ()
+      else
+        for L in 0..n_cols-1 do
+          if L = j then //excludes the j column
+            ()
+          else 
+            tempRow <- tempRow @ [A.[K,L]] //create a temporary row to apply to M for the respective row K
+        for V in 0..m_rows-2 do
+          M.[K,V] <- tempRow.[V]
+    M
 
 end
