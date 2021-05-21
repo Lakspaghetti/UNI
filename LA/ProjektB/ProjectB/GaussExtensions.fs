@@ -142,18 +142,20 @@ type GaussOps = class
     /// </returns>
     static member ForwardReduction (M : Matrix) : Matrix =
         let tolerance = 0.00000001
-        let m_rows = A.M_Rows    
+        let m_rows = M.M_Rows    
+        let mutable pivotColumn = M.Column(0)
         let mutable CurrentColumnInt = 0
         let mutable IsPivotColFound = false
 
         while not IsPivotColFound do
             for i in 0..m_rows-1 do
-            if A.[i,CurrentColumnInt] > tolerance then
+            if M.[i,CurrentColumnInt] > tolerance then
                 IsPivotColFound <- true
-                let pivotColumn = A.Column(CurrentColumnInt)
+                pivotColumn <- M.Column(CurrentColumnInt)
             else 
                 CurrentColumnInt <- CurrentColumnInt + 1
 
+        pivotColumn // change
         
 
         // One does simply not compare a float number with 0.0
