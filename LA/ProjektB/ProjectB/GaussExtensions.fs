@@ -59,8 +59,17 @@ type GaussOps = class
     /// row operation.
     /// </returns>
     static member ElementaryRowReplacement (A : Matrix) (i : int) (m : float) (j : int) : Matrix =
-        raise (NotImplementedException())
+        let n_cols = A.N_Cols
+        let rowI = A.Row(i)
+        let rowJ = A.Row(j)
+        let result = A
         
+        for k in 0..n_cols-1 do
+            rowJ.[k] <- rowJ.[k] * m
+            A.[i,k] <- rowI.[k] + rowJ.[k]
+        result
+
+
     /// <summary>
     /// This function computes the elementary row interchange operation on
     /// the given matrix.
@@ -81,7 +90,17 @@ type GaussOps = class
     /// row operation.
     /// </returns>
     static member ElementaryRowInterchange (A : Matrix) (i : int) (j : int) : Matrix =
-        raise (NotImplementedException())
+        let n_cols = A.N_Cols
+        let result = Matrix (A)
+        
+        for k in 0..n_cols-1 do
+            //række i <- række j
+            result.[i,k] <- A.[j,k]
+            //række j <- række i
+            result.[j,k] <- A.[i,k]
+            
+        result
+
 
     /// <summary>
     /// This function computes the elementary row scaling operation on the
@@ -99,7 +118,14 @@ type GaussOps = class
     /// row operation.
     /// </returns>
     static member ElementaryRowScaling (A : Matrix) (i : int) (c : float) : Matrix =
-        raise (NotImplementedException())
+        let m_rows = A.M_Rows
+        let n_cols = A.N_Cols
+        let result = A
+
+        for j in 0 ..n_cols-1 do
+            result.[i,j] <- result.[i,j] * c
+        result
+          
 
     /// <summary>
     /// This function executes the forward reduction algorithm provided in
@@ -115,12 +141,26 @@ type GaussOps = class
     /// An M-by-N matrix that is the row Echelon form.
     /// </returns>
     static member ForwardReduction (M : Matrix) : Matrix =
+        let tolerance = 0.00000001
+        let m_rows = A.M_Rows    
+        let mutable CurrentColumnInt = 0
+        let mutable IsPivotColFound = false
+
+        while not IsPivotColFound do
+            for i in 0..m_rows-1 do
+            if A.[i,CurrentColumnInt] > tolerance then
+                IsPivotColFound <- true
+                let pivotColumn = A.Column(CurrentColumnInt)
+            else 
+                CurrentColumnInt <- CurrentColumnInt + 1
+
+        
 
         // One does simply not compare a float number with 0.0
         // A not-so-scientific way, but quite sufficient to this course,
         // is to have a threshold value, which is defined as below.
 
-        let tolerance = 0.00000001
+        
         raise (NotImplementedException())
 
     /// <summary>
