@@ -4,9 +4,9 @@ using DarkDungeons.Dungeons;
 
 namespace DarkDungeons.Compositions{
     public class Composition{
-        Dungeon parent;
-        List<Dungeon> successors;
-        public Composition(Dungeon Parent, List<Dungeon> Successors=null) { //composite and facade pattern?
+        private Dungeon parent;
+        private List<Dungeon> successors;
+        public Composition(Dungeon Parent, List<Dungeon> Successors=null) {
             this.parent = Parent;
             this.successors = Successors;
             try {
@@ -21,8 +21,8 @@ namespace DarkDungeons.Compositions{
             if (parent.Completed) {
                 try {
                     foreach (Dungeon successor in successors) {
-                        Console.WriteLine("{0} dungeon unlocked!", successor.name);
                         successor.Unlock();
+                        Console.WriteLine("{0} dungeon unlocked!", successor.name);                        
                     }
                 } catch {}
             }

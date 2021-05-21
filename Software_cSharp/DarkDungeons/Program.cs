@@ -9,17 +9,15 @@ namespace DarkDungeons
     {
         static void Main()
         {
-            IceDungeon test1;
-            test1 = new IceDungeon(); 
             StormDungeon storm = new StormDungeon();
             IceDungeon ice = new IceDungeon(); 
             EarthDungeon earth = new EarthDungeon();
             FireDungeon fire = new FireDungeon();
 
-            List<Dungeon> stormlist = new List<Dungeon>(); //= new Dungeon[earth, ice];
+            List<Dungeon> stormlist = new List<Dungeon>(); 
             stormlist.Add(earth); stormlist.Add(ice);
 
-            List<Dungeon> earthlist = new List<Dungeon>(); //= new Dungeon[fire];
+            List<Dungeon> earthlist = new List<Dungeon>(); 
             earthlist.Add(fire);
 
 
