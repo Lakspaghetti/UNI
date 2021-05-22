@@ -120,12 +120,46 @@ type GaussOps = class
     static member ElementaryRowScaling (A : Matrix) (i : int) (c : float) : Matrix =
         let m_rows = A.M_Rows
         let n_cols = A.N_Cols
+        let nullVector = Vector(m_rows)
         let result = A
 
         for j in 0 ..n_cols-1 do
             result.[i,j] <- result.[i,j] * c
         result
           
+
+    let findPivotCol (M : Matrix) : (Vector, int) =
+        let tolerance = 0.00000001
+        let m_rows = A.M_Rows
+        let n_cols = A.N_Cols
+
+        let mutable I = 0
+        let mutable IsPivotColFound = false
+        let mutable result = Vector(m_rows)
+
+        while not IsPivotColFound do
+            for j in 0..m_rows do
+                if M.[j,I] > tolerance || M.[j,I] < -tolerance then
+                    result <- M.Column(I)
+                    IsPivotColFound <- true
+                else 
+                    ()
+            I <- I + 1
+        (result, I)
+
+    let findPivotElm (V : Vector) : (float, int) =
+        let size = V.Size
+        let mutable E = 0
+        let mutable IsPivotElmFound = false
+        let mutable result = 0.0
+
+        while not IsPivotElmFound do
+            if V.[E] > tolerance || V.[E] < -tolerance then
+                result <- V.[E]
+                IsPivotElmFound <- true
+            else
+                E <- E + 1
+        (result, E)
 
     /// <summary>
     /// This function executes the forward reduction algorithm provided in
@@ -142,18 +176,17 @@ type GaussOps = class
     /// </returns>
     static member ForwardReduction (M : Matrix) : Matrix =
         let tolerance = 0.00000001
-        let m_rows = M.M_Rows    
-        let mutable pivotColumn = M.Column(0)
-        let mutable CurrentColumnInt = 0
-        let mutable IsPivotColFound = false
+        let m_rows = M.M_Rows
+        //locate the pivotcolumn
+        let col = snd(findPivotCol M)
+        let pivotColumn = fst(findPivotCol M)
+        //locate the first nonzero entry in the pivotcolumn
+        let row = snd(findPivotElm pivotColumn)
+        let pivotElm = fst(findPivotElm pivotColumn)
+        
+        GaussOps.ElementaryRowInterchange
 
-        while not IsPivotColFound do
-            for i in 0..m_rows-1 do
-            if M.[i,CurrentColumnInt] > tolerance then
-                IsPivotColFound <- true
-                pivotColumn <- M.Column(CurrentColumnInt)
-            else 
-                CurrentColumnInt <- CurrentColumnInt + 1
+        
 
         pivotColumn // change
         
