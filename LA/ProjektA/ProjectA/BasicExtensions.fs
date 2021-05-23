@@ -95,7 +95,7 @@ type BasicOps = class
   static member Transpose (A : Matrix) : Matrix =
     let m_rows = A.M_Rows
     let n_cols = A.N_Cols
-    let mutable B =  Matrix(n_cols, m_rows) //reverse size
+    let mutable B = Matrix(n_cols, m_rows) //reverse size
 
     for i in 0..m_rows-1 do
       for j in 0..n_cols-1 do
