@@ -135,7 +135,6 @@ type AdvancedOps = class
             result <- (detOfTriangleMatrixFinder)
         result
 
-
     /// <summary>
     ///     This function computes the Euclidean norm of a Vector. This has been implemented
     ///     in Project A and is provided here for convenience
