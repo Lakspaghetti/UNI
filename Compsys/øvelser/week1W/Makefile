@@ -15,3 +15,9 @@ fileecho: fileecho.c
 
 noAshere: noAshere.c
 	$(CC) -o noAshere noAshere.c $(CFLAGS)
+
+filecopy: filecopy.c
+	$(CC) -o filecopy filecopy.c $(CFLAGS)
+
+caeser: caeser.c
+	$(CC) -0 caeser caeser.c $(CFLAGS)
