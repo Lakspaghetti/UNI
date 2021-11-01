@@ -1,0 +1,3 @@
+[submodule "Compsys/compSys-e2021-pub"]
+	path = Compsys/compSys-e2021-pub
+	url = https://github.com/diku-compSys/compSys-e2021-pub
