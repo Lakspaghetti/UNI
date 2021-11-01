@@ -15,3 +15,6 @@ roll: roll.c
 
 rand: rand.c
 	$(CC) -o rand rand.c $(CFLAGS)
+
+test: test.c
+	$(CC) -o test test.c $(CFLAGS)
