@@ -12,13 +12,12 @@ void echo(int connfd)
 
     Rio_readinitb(&rio, connfd);
     while((n = Rio_readlineb(&rio, buf, MAXLINE)) != 0) { //line:netp:echo:eof
-		printf("server received %d bytes\n", (int)n);
-    if (strstr(buf, "ping") != NULL && strlen(buf) == (long)5) {
-      Rio_writen(connfd, "pong\n", n);
-    } else {
-      Rio_writen(connfd, buf, n);
-    }
-
+      printf("server received %d bytes\n", (int)n);
+      if (strstr(buf, "ping") != NULL && strlen(buf) == (long)5) { // strcmp(buf, "ping\n") == 0 works as well
+        Rio_writen(connfd, "pong\n", n);
+      } else {
+        Rio_writen(connfd, buf, n);
+      }
     }
 }
 /* $end echo */
